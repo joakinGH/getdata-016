@@ -27,10 +27,10 @@ Finally, it creates a independent tidy data set with the average of each variabl
 
 ## List of variables selected selected for the output file
 ```{r}
-Activity						      Subject
-tBodyAcc-mean()-X				  tBodyAcc-mean()-Y
-tBodyAcc-mean()-Z				  tBodyAcc-std()-X
-tBodyAcc-std()-Y				  tBodyAcc-std()-Z
+Activity					    Subject
+tBodyAcc-mean()-X				tBodyAcc-mean()-Y
+tBodyAcc-mean()-Z				tBodyAcc-std()-X
+tBodyAcc-std()-Y				tBodyAcc-std()-Z
 tGravityAcc-mean()-X			tGravityAcc-mean()-Y
 tGravityAcc-mean()-Z			tGravityAcc-std()-X
 tGravityAcc-std()-Y				tGravityAcc-std()-Z
@@ -39,9 +39,9 @@ tBodyAccJerk-mean()-Z			tBodyAccJerk-std()-X
 tBodyAccJerk-std()-Y			tBodyAccJerk-std()-Z
 tBodyGyro-mean()-X				tBodyGyro-mean()-Y
 tBodyGyro-mean()-Z				tBodyGyro-std()-X
-tBodyGyro-std()-Y				  tBodyGyro-std()-Z
-tBodyGyroJerk-mean()-X		tBodyGyroJerk-mean()-Y
-tBodyGyroJerk-mean()-Z		tBodyGyroJerk-std()-X
+tBodyGyro-std()-Y				tBodyGyro-std()-Z
+tBodyGyroJerk-mean()-X		    tBodyGyroJerk-mean()-Y
+tBodyGyroJerk-mean()-Z		    tBodyGyroJerk-std()-X
 tBodyGyroJerk-std()-Y			tBodyGyroJerk-std()-Z
 tBodyAccMag-mean()				tBodyAccMag-std()
 tGravityAccMag-mean()			tGravityAccMag-std()
@@ -58,7 +58,7 @@ fBodyAccJerk-std()-X			fBodyAccJerk-std()-Y
 fBodyAccJerk-std()-Z			fBodyAccJerk-meanFreq()-X
 fBodyAccJerk-meanFreq()-Y		fBodyAccJerk-meanFreq()-Z
 fBodyGyro-mean()-X				fBodyGyro-mean()-Y
-fBodyGyro-mean()-Z				fBodyGyro-std()-X
+fBodyGyro-mean()-Z		        fBodyGyro-std()-X
 fBodyGyro-std()-Y				fBodyGyro-std()-Z
 fBodyGyro-meanFreq()-X			fBodyGyro-meanFreq()-Y
 fBodyGyro-meanFreq()-Z			fBodyAccMag-mean()
